@@ -6,7 +6,7 @@ from processor import process_upsells
 class TestPharmacyUpsell(unittest.TestCase):
 
     def setUp(self):
-        """Готовим тестовые датафреймы перед каждым тестом."""
+        """Готовим тестовые датафреймы перед каждым тестом"""
         # Симулируем лист Номенклатуры
         self.df_nom = pd.DataFrame({
             'Наименование': ['Магний B6 таб', 'Витамин С шип', 'Презервативы XL'],
